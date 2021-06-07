@@ -400,21 +400,17 @@ label{
 	20%{color: maroon;}
 }
 .site{
-	background-color: #eee;
-	color: darkblue;
-	font-weight: bold;
-	font-family: sans-serif, ;
-	padding: 5px;
-	margin: 5px;
-	font-size: 25px;
+	background-color: grey;
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 10px;
 }
 
 .sky{
 	color: maroon;
 	font-weight: bold;
 	font-family: sans-serif;
-	padding: 5px;
-	margin: 5px;
 	box-shadow: 2px 4px 4px 2px black;
 	font-size: 25px;
 }
@@ -425,8 +421,6 @@ label{
 	background-color: aliceblue;
 	color: black;
 	font-size: 20px;
-	padding: 25px;
-	margin: 90px;
 
 }
 
@@ -434,8 +428,6 @@ label{
 	color: maroon;
 	font-weight: bold;
 	font-family: sans-serif;
-	padding: 5px;
-	margin: 5px;
 	font-size: 25px;
 	box-shadow: 2px 4px 4px 2px black;
 }
@@ -446,8 +438,6 @@ label{
 	background-color: aliceblue;
 	color: black;
 	font-size: 20px;
-	padding: 25px;
-	margin: 90px;
 
 }
 
@@ -456,8 +446,6 @@ label{
 	background-color: aliceblue;
 	color: black;
 	font-size: 20px;
-	padding: 25px;
-	margin: 90px;
 
 }
 
@@ -465,8 +453,6 @@ label{
 	color: maroon;
 	font-weight: bold;
 	font-family: sans-serif;
-	padding: 5px;
-	margin: 5px;
 	font-size: 25px;
 	box-shadow: 2px 4px 4px 2px black;
 
@@ -477,8 +463,6 @@ label{
 	background-color: aliceblue;
 	color: black;
 	font-size: 20px;
-	padding: 25px;
-	margin: 90px;
 	
 
 }
@@ -487,23 +471,11 @@ label{
 	color: maroon;
 	font-weight: bold;
 	font-family: sans-serif;
-	padding: 5px;
-	margin: 5px;
 	font-size: 25px;
 	box-shadow: 2px 4px 4px 2px black;
 }
 
-#refport{
-	background-color: aliceblue;
-	color: black;
-	font-size: 15px;
-	padding: 50px;
-	margin: 25px;
-    float: left;
 
-
-	
-}
 
 .bg4{
 	height: 250px;
@@ -514,42 +486,18 @@ label{
 
 }
 .olive{
-	color: maroon;
+	color: white;
 	font-size: 25px;
 	font-weight: bold;
-	padding: 5px;
-	margin: 5px;
-	box-shadow: 2px 4px 4px 2px black;
+	box-shadow: 2px 4px 4px 2px green;
+	text-align: center;
 
 
 }
-.ilu{
-	height: 250px;
-	width: 250px;
-	display: flex;
-	object-fit: cover;
-}
 
-.kylian{
-	height: 250px;
-	width: 250px;
-	display: flex;
-	object-fit: cover;
-}
- .mbappe{
- 	height: 250px;
-	width: 250px;
-	display: flex;
-	object-fit: cover;
 
- }
- .cr7{
- 	background-color: aliceblue;
-	color: black;
-	font-size: 15px;
-	padding: 50px;
-	margin: 25px;
- }
+
+ 
 .val{
 	color: maroon;
 	font-size: 25px;
@@ -557,38 +505,11 @@ label{
 	box-shadow: 2px 4px 4px 2px black;
 
 }
-.fruit{
-	height: 300px;
-	width: 300px;
-	display: flex;
-	object-fit: cover;
 
-}
-.apple{
-	height: 300px;
-	width: 300px;
-	display: flex;
-	object-fit: cover;
-
-}
-.litchi{
-	height: 300px;
-	width: 300px;
-	display: flex;
-	object-fit: cover;
-}
-.guava{
-	height: 300px;
-	width: 300px;
-	display: flex;
-	object-fit: cover;
-}
 
 .zoro{
 	color: maroon;
 	font-weight: bold;
-	margin: 5px;
-	padding: 25px;
 	text-shadow: 2px 2px 2px yellowgreen;
 	box-shadow: 2px 4px 4px 2px black;
 }
@@ -597,8 +518,6 @@ label{
 	background-color: aliceblue;
 	font-size: 20px;
 	color: black;
-	padding: 25px;
-	margin: 90px;
 	text-align: center;
 	
 	}
@@ -631,17 +550,7 @@ label{
 
 }
 
-.sss{
-	height: 600px;
-	width: 600px;
-	display: flex;
-}
 
-.input{
-	height: 600px;
-	width: 600px;
-	display: flex;
-}
 
 .null{
 	text-align: center;
@@ -660,12 +569,72 @@ label{
 	text-align: center;
 }
 
+#refport{ 
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-color: grey;
+}
+.txtf{
+	color: white;
+}
 
+#refport .imagee{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
 
+#refport .imagee .jpg{
+	height: 18rem;
+	width: 28rem;
+	border-radius: 3rem;
+	margin: 4rem;
+	overflow: hidden;
+}
 
+#refport .imagee .jpg img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
 
+.headingg{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: sans-serif;
+	box-shadow: 2px 2px 2px green;
+	text-align: center;
+}
 
+#validate{ 
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-color: grey;
+}
 
+#validate .display{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+
+#validate .display .fort{
+	height: 60%;
+	width: 60%;
+	border-radius: 1rem;
+	margin: 4rem;
+	overflow: hidden;
+}
+
+#validate .display .fort img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
 
 @media only screen and (max-width:500px){
 	
@@ -689,7 +658,7 @@ label{
  
 }
 #toggle:checked + .navbar{
-	display: grid;
+	display: inline-block;
 
 
 
@@ -738,7 +707,24 @@ label{
 font-size: 20px;
 
 }
+
+/*siteereport*/
  
+ .txtf{
+	color: white;
+	font-size: 8px;
+}
+
+.med{
+	font-size: 15px;
+}
+
+.gif{
+	font-size: 15px;
+}
+
+
+
 
 
 
