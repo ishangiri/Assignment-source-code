@@ -636,6 +636,15 @@ label{
 	object-fit: cover;
 }
 
+.none{
+	text-align: center;
+	font-family: sans-serif,
+	color: blueviolet;
+	text-shadow: 2px 1px 2px red;
+	font-size: 20px;
+
+}
+
 @media only screen and (max-width:500px){
 	
 	/*Hamburger icon*/
